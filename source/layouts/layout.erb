@@ -9,17 +9,16 @@
 
     <!-- css -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../stylesheets/bootstrap-theme.css" rel="stylesheet">
+    <%= stylesheet_link_tag 'bootstrap-theme' %>
     <!-- <link href="../stylesheets/normalize.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../stylesheets/sticky-footer.css" rel="stylesheet">
+    <%= stylesheet_link_tag 'sticky-footer' %>
  <!--   <link href="../stylesheets/sticky-footer.css" rel="stylesheet"> -->
     <%= stylesheet_link_tag 'main' %>
 
     <!-- js -->
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../javascripts/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="../javascripts/bootstrap-theme.js"></script>
+    <%= javascript_include_tag 'jquery-2.1.4.min' %>
+    <%= javascript_include_tag 'bootstrap.min' %>
 <!--    <script type="text/javascript"
       src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script> -->
@@ -90,8 +89,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
   </body>
