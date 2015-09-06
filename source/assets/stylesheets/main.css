@@ -67,20 +67,21 @@ span.right {
 }
 
 .navbar li {
-  padding-top: 12px;
+  margin-top: 5px;
   font-size: 1.4em;
 }
-
+  /*XXX*/
 .navbar ul {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 2px;
 }
 
 .navbar .nav li a {
   text-align: center;
   -webkit-text-shadow: none;
   text-shadow: none;
-  line-height: 35px;
+ /* line-height: 35px; */
 }
 
 .navbar .nav li a:hover {
@@ -107,14 +108,15 @@ span.right {
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
-    background: #00ffff;
-    margin-top: 0; // remove the gap so it doesn't close
+  display: block;
+  background: #00ffff;
+  margin-top: 0; // remove the gap so it doesn't close
  }
 
 .participate a {
   color: #00ffff;
   background-color: #ff0000;
+  height: 50px;
 }
 
 
