@@ -1,0 +1,12 @@
+---
+title: Syntactic and lexical inference in the acquisition of novel superlatives
+date: 2015-08-01
+authors: Alexis Wellwood, Annie Gagliardi, and Jeffrey Lidz
+venue: to appear in <i>Language Learning and Development</i>
+offprint: 
+DOI: 
+tags: acquisition, superlatives, determiners, number
+---
+
+Acquiring the correct meanings of words expressing quantities (*seven*, *most*) and qualities (*red*, *spotty*) present a challenge to learners. Understanding how children succeed at this requires understanding not only what kinds of data are available to them, but also the biases and expectations they bring to the learning task. READMORE The results of our word-learning task with 4 year-olds indicates that a \"syntactic bootstrapping\" hypothesis correctly predicts a bias towards quantity-based interpretations when a novel word appears in the syntactic position of a determiner, but leaves open the explanation of a bias towards quality-based interpretations when the same word is presented in the syntactic position of an adjective. We develop four computational models that differentially encode how lexical, conceptual, and perceptual factors could generate the latter bias. Simulation results suggest it results from a combination of lexical bias and perceptual encoding. 
+

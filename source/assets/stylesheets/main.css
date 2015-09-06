@@ -1,0 +1,183 @@
+body {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  min-height: 100%;
+  height: 100%;
+}
+
+/*  background: url("/images/boi.jpg") no-repeat top right; */
+
+/* main site container */ 
+
+.container > hr {
+  margin: 20px 0;
+}
+
+.container {
+  max-width: 940px;
+}
+
+/* navbar logo */ 
+
+h1.logo { 
+  width:100%;
+}
+
+h1.logo a {
+  text-decoration: none;
+}
+
+h1.logo span {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+span.left {
+  background-color: #B3DDF2;
+  color: #18678e;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+span.center {
+  background-color: #FFFFFF;
+  color: #ff8000;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+span.right {
+  background-color: #FF0000;
+  color: #00ffff;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.sublogo {
+  font-size: small;
+}
+
+/* navbar except logo */ 
+
+.navbar {
+  margin-bottom: 20px;
+  margin-left: 3px;
+  border-style: none;
+  padding-right: 3px;
+}
+
+.navbar li {
+  padding-top: 12px;
+  font-size: 1.4em;
+}
+
+.navbar ul {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.navbar .nav li a {
+  text-align: center;
+  -webkit-text-shadow: none;
+  text-shadow: none;
+  line-height: 35px;
+}
+
+.navbar .nav li a:hover {
+  background: none;
+}
+
+.navbar .nav li.dropdown ul li a {
+  text-align: left;
+  color: white;
+}
+
+.navbar .navbar-header button span {
+  background-color: #ff0000;
+  margin-top: 15px;
+}
+
+.dropdown-menu {
+  background: white;
+}
+
+.navbar .nav li.dropdown ul li a:hover {
+  color: rgba(255, 255, 255, .9);
+  background: #00ffff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background: #00ffff;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+.participate a {
+  color: #00ffff;
+  background-color: #ff0000;
+}
+
+
+/* site details */ 
+
+a {
+  color: #18678e;
+}
+
+a:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+.pageheader {
+  text-align: left;
+  background-color: #B3DDF2;
+  color: #18678e;
+  padding-right: 20px;
+  padding-left: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.subheader {
+  color: #FF0000;
+  size: 1.4em;
+  margin-bottom: 0px;
+  position: relative;
+  float: left;
+}
+
+.bigsubheader {
+  color: #FF0000;
+  position: relative; 
+  float: right;
+}
+
+div .peoplepicture {
+  width: 10em;
+  float: left;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+span.article-links {
+  float: right;
+}
+
+span.article-links span {
+  padding-left: 0.05em;
+  padding-right: 0.1em;
+}
+
+.jumbotron {
+  background-color:transparent;
+}
+
+.jumbotron h1 {
+  color: #FF0000;
+}
+
+.title {
+  color: #18678e;
+}
+

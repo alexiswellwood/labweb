@@ -1,0 +1,76 @@
+---
+title: Research
+date: 2015-08-10
+author: Alexis Wellwood
+pageable: true
+per_page: 10
+blog: research
+---
+
+<h2 class="pageheader">Publications</h2>
+
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<% page_articles.each_with_index do |article, i| %>
+  <h3>
+    <span class="title"><%= article.data.title %> </span>
+    <span class="bigsubheader">
+      <span class="article-links">
+        <% if article.data.local %>
+          <span><%= link_to '<i class="fa fa-file-pdf-o"></i>'.html_safe, article.data.local %></span>
+        <% end %>
+        <% if article.data.official %>
+          <span><%= link_to '<i class="fa fa-university"></i>'.html_safe, article.data.official %></span>
+        <% end %>
+        <%= article.date.strftime("%Y") %>
+      </span>
+  </h3>
+  <h5>by <%= article.data.authors %>; <%= article.data.venue %></h5>
+  <%= article.body %>
+  <!-- requires Nokogiri: -->
+  <!-- <%= article.summary(1000) %> <%= link_to 'Read more…', article %> --> 
+  <% article.tags.each_with_index do |tag, j| %>
+    <%= link_to tag, tag_path(tag) %> <%= '|' if j < (article.tags.size - 1) %>
+  <% end %>
+<% end %>
+
+<!--gets articles by date
+<ul>
+  <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+    <li>
+      <h5><%= year %></h5>
+      <ul>
+        <% articles.each do |article| %>
+          <li><a href="<%= article.url %>" class="lowercase"><%= article.title %></a></li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+</ul>
+/gets articles by date-->
+
+<!-- gets articles by tags
+<ul>
+  <% blog.tags.each do |tag, articles| %>
+    <li>
+      <h5><%= tag %></h5>
+      <ul>
+        <% articles.each do |article| %>
+          <li><a href="<%= article.url %>" class="lowercase"><%= article.title %></a></li>
+        <% end %>
+      </ul>
+  <% end %>
+</ul>
+/gets articles by tags-->
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>

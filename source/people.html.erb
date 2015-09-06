@@ -1,0 +1,27 @@
+---
+title: People
+date: 2015-08-10
+author: Alexis Wellwood
+blog: people
+---
+
+<h2 class="pageheader">People</h2>
+
+  <% page_articles.each_with_index do |article, i| %>
+    <h3><%= link_to article.data.name, article.data.website %>  </h3>
+    <span class="subheader"><%= article.data.title %></span><br /> 
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="peoplepicture">
+  	      <%= image_tag(article.data.photo, :width => "100%", :alt => article.data.firstname, :title => article.data.firstname) %>
+        </div>
+        <%= article.body %>
+      </div>
+    </div>
+  <% end %>
+
+
+<!-- 
+, alt: article.data.firstnameimage_tag 'test.png', alt: 'this is an alt', class: 'apply this class', other_options: 'infinite number of options to be added to the hash'
+--> 

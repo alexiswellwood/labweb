@@ -1,0 +1,29 @@
+---
+title: tags
+date: 08-01-2015
+author: alexis wellwood
+pageable: true
+per_page: 12
+---
+<h2 class="pageheader">Pages tagged '<%= tagname %>'</h2>
+
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<ul>
+  <% page_articles.each_with_index do |article, i| %>
+    <li><span><%= link_to article.title, article %></span>, <%= article.data.venue %>, <span><%= article.date.strftime('%Y') %></span></li>
+  <% end %>
+</ul>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>
+

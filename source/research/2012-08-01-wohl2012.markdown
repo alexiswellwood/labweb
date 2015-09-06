@@ -1,0 +1,20 @@
+---
+title: "Choosing quantity over quality: syntax guides interpretive preferences for novel superlatives"
+authors: Alexis Wellwood, Darko Odic, Justin Halberda, and Jeffrey Lidz
+date: 2012-08-01
+venue: <i>Proceedings of the Cognitive Science Society annual meeting</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/wohl2012css.pdf
+tags: acquisition, superlatives, syntactic-bootstrapping
+---
+
+Acquiring the correct meanings of number words (e.g.,
+*seven*, *forty-two*) is challenging, as such words fail to describe salient
+properties of individuals or objects in their environment,  referring rather to properties of
+sets
+of such objects or individuals. Previous
+research has revealed a critical role for language itself in how
+children acquire number word meanings, however attempts to
+pinpoint precisely the strong linguistic cues has proved challenging.  READMORE We  propose  a  novel  \"syntactic  bootstrapping\"  hypothesis in which categorizing a novel word as a determiner
+leads to quantity-based interpretations.  The results of a word
+learning task with 4 year olds indicates that this hypothesis is
+on the right track.

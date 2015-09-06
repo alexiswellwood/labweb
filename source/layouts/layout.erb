@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= "ChiLDlab " + current_page.data.title  %></title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- css -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../stylesheets/bootstrap-theme.css" rel="stylesheet">
+    <!-- <link href="../stylesheets/normalize.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../stylesheets/sticky-footer.css" rel="stylesheet">
+ <!--   <link href="../stylesheets/sticky-footer.css" rel="stylesheet"> -->
+    <%= stylesheet_link_tag 'main' %>
+
+    <!-- js -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../javascripts/bootstrap-theme.js"></script>
+<!--    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script> -->
+    <link rel="icon" 
+      type="image/png" 
+      href="/images/boi.png">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar navbar-custom navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 id="logo">
+            <a href="/"> 
+              <span class="left">ChiLD</span><span class="right">lab</span> 
+            </a>  
+          </h1>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-center navbar-nav">
+            <!-- <li><a href="/index.html">About</a></li> -->
+            <li><a href="/news.html">News</a></li>
+            <li><a href="/people.html">People</a></li>
+            <li><a href="/research.html">Research</a></li>
+            <li class="participate"><a href="/participate.html">Participate</a></li>
+          </ul>
+        </div><!--/.nav-collapse-->
+        <span class="sublogo text-uppercase text-muted">Child Language Development Laboratory @ Northwestern University</span>
+      </div>
+    </div><!--/.navbar-static-top-->
+    <!--/.navbar--> 
+
+    <!--main content-->
+    <div class="container">
+      <div class="row">
+
+        <!-- site content -->
+        <div class="col-md-9">
+            <%= yield %>
+        </div>
+            
+      </div><!--/site content-->
+    </div><!--/main content-->
+
+    <!-- footer -->
+    <div class="container">
+ <!--    <div class="footer pull-right" style="padding-top:40px;"> -->
+      <div class="footer" style="padding-top:40px;">
+        <div class="row">
+          <div class="col-md-12"> 
+            <p class="text-muted">
+              Northwestern University Child Language Development Laboratory<br>
+              2021 Sheridan Rd, 102-103 Cresap Laboratory<br>
+              Phone: (847)-491-3190 | <a href="mailto:childlab@northwestern.edu">childlab@northwestern.edu</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>

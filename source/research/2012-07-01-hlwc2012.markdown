@@ -1,0 +1,11 @@
+---
+title: "Restrictions on the meanings of determiners: Typological generalisations and learnability"
+authors: Tim Hunter, Jeffrey Lidz, Alexis Wellwood, and Anastasia Conroy
+date: 2012-07-01
+venue: <i>Proceedings of Semantics and Linguistic Theory 19</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/hlwc2010salt-prepub.pdf
+official: http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2531
+tags: acquisition, determiners, number, syntactic-bootstrapping
+---
+
+No language has a determiner meaning something like \'less than half\' (e.g., a *fost* to complement determiner *most*), nor does any language have a determiner meaning something like what *most* means, but which is non-conservative (e.g., a *grfost*). Like the hypothetical *fost*, but unlike the hypothetical *grfost*, every natural language determiner is \"conservative\"---i.e., it lives on the set denoted by its complement NP. Are these two typological gaps equally principled?  We look at this question from the perspective of language acquisition, asking whether the two meanings (non-conservative or conservative \'less than half\') are equally aquirable. Our experiments suggest that children are able to access the non-existent, yet conservative determiner meaning *fost*, but not a non-conservative counterpart like *grfost*.
