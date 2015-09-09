@@ -53,22 +53,18 @@ h1.logo span {
 span.left {
   background-color: #B3DDF2;
   color: #18678e;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 0.2em;
 }
 
 span.center {
   background-color: #FFFFFF;
   color: #ff8000;
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 span.right {
   background-color: #FF0000;
   color: #00ffff;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: .2em;
 }
 
 .sublogo {
