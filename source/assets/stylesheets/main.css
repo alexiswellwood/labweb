@@ -17,6 +17,10 @@ body {
   max-width: 940px;
 }
 
+.extra { 
+  padding-left: 15px;
+}
+
 /* navbar logo */ 
 
 h1.logo { 
@@ -70,7 +74,7 @@ span.right {
   margin-top: 5px;
   font-size: 1.4em;
 }
-  /*XXX*/
+  
 .navbar ul {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -81,7 +85,6 @@ span.right {
   text-align: center;
   -webkit-text-shadow: none;
   text-shadow: none;
- /* line-height: 35px; */
 }
 
 .navbar .nav li a:hover {
