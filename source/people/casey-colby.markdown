@@ -1,5 +1,5 @@
 ---
-title: Lab Manager 
+title: Research Study Coordinator
 firstname: Casey
 lastname: Colby
 name: Casey Colby

@@ -3,6 +3,20 @@ body {
   padding-bottom: 30px;
   min-height: 100%;
   height: 100%;
+  font-family: 'Raleway', Arial; 
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
 }
 
 /*  background: url("/images/boi.jpg") no-repeat top right; */
@@ -87,13 +101,21 @@ span.right {
   text-shadow: none;
 }
 
-.navbar .nav li a:hover {
+/* .navbar .nav li a:hover {
+  background: none;
+} */
+
+.navbar .nav li a:hover,
+.navbar .nav li.open > a,
+.navbar .nav li.open > a:focus,
+.navbar .nav li.open > a:hover {
+  color: #FF0000;
   background: none;
 }
 
 .navbar .nav li.dropdown ul li a {
   text-align: left;
-  color: white;
+  color: #18678e;
 }
 
 .navbar .navbar-header button span {
@@ -106,13 +128,13 @@ span.right {
 }
 
 .navbar .nav li.dropdown ul li a:hover {
-  color: rgba(255, 255, 255, .9);
-  background: #00ffff;
+  color: #FF0000;
+  background: none;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  background: #00ffff;
+  background: #ffffff;
   margin-top: 0; // remove the gap so it doesn't close
  }
 
@@ -138,10 +160,7 @@ a:hover {
   text-align: left;
   background-color: #B3DDF2;
   color: #18678e;
-  padding-right: 20px;
-  padding-left: 3px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: .25em;
 }
 
 .subheader {
