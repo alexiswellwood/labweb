@@ -3,7 +3,7 @@ title: Principle Investigator (PI)
 firstname: Alexis
 lastname: Wellwood
 name: Alexis Wellwood
-date: 2020-08-20
+date: 2015-09-07
 photo: /images/me-rainbow.png
 website: http://faculty.wcas.northwestern.edu/wellwood/
 blog: people

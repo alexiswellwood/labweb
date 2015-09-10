@@ -180,6 +180,10 @@ div .peoplepicture {
   padding-top: 5px;
 }
 
+h5 {
+  font-weight:bold;
+}
+
 span.article-links {
   float: right;
 }

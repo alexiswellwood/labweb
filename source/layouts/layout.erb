@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title><%= "ChiLDlab " + current_page.data.title  %></title> 
+    <title><%= "ChiLDlab " + current_page.data.title.to_s  %></title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -46,10 +46,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-center navbar-nav">
-            <li><a href="/index.html">About</a></li>
-            <li><a href="/news.html">News</a></li>
-            <li><a href="/people.html">People</a></li>
-            <li><a href="/research.html">Research</a></li>
+            <li><%= link_to 'About', '/index.html' %></li>
+            <li><%= link_to 'News', '/news.html' %></li>
+            <li><%= link_to 'People', '/people.html' %></li>
+            <li><%= link_to 'Research', '/research.html' %></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">For parents <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu" aria-labelledby="drop1" style="padding-bottom: 15px;">
