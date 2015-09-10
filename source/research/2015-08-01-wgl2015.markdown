@@ -3,8 +3,7 @@ title: Syntactic and lexical inference in the acquisition of novel superlatives
 date: 2015-08-01
 authors: Alexis Wellwood, Annie Gagliardi, and Jeffrey Lidz
 venue: to appear in <i>Language Learning and Development</i>
-offprint: 
-DOI: 
+offprint: http://faculty.wcas.northwestern.edu/wellwood/downloadables/wgl_LLD_preproof.pdf 
 tags: acquisition, superlatives, determiners, number
 ---
 
