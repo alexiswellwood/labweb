@@ -13,7 +13,6 @@
     <!-- <link href="../stylesheets/normalize.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <%= stylesheet_link_tag 'sticky-footer' %>
- <!--   <link href="../stylesheets/sticky-footer.css" rel="stylesheet"> -->
     <%= stylesheet_link_tag 'main' %>
 
     <!-- js -->
@@ -29,8 +28,7 @@
 
   <body>
     <!-- navbar -->
-    <div class="navbar navbar-custom navbar-static-top" role="navigation">
-      <div class="container">
+    <div class="navbar navbar-custom navbar-static-top" role="navigation" style="padding-left: 1.75em;">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -60,7 +58,6 @@
           </ul>
         </div><!--/.nav-collapse-->
         <span class="sublogo text-uppercase text-muted">Child Language Development Laboratory @ Northwestern University</span>
-      </div>
     </div><!--/.navbar-static-top-->
     <!--/.navbar--> 
 
@@ -69,27 +66,23 @@
       <div class="row">
 
         <!-- site content -->
-        <div class="col-md-10 extra">
+        <div class="col-xs-push-12">
             <%= yield %>
         </div>
             
       </div><!--/site content-->
     </div><!--/main content-->
 
-    <!-- footer -->
-    <div class="container">
-      <div class="footer" style="padding-top:40px;">
-        <div class="row">
-          <div class="col-md-8"> 
+   <!-- footer -->
+    <footer class="footer">
+      <div class="container">
             <p class="text-muted">
               Northwestern University Child Language Development Laboratory<br>
               2021 Sheridan Rd, 102-103 Cresap Laboratory<br>
               Phone: (847)-491-3190 | <a href="mailto:childlab@northwestern.edu">childlab@northwestern.edu</a>
             </p>
-          </div>
-        </div>
       </div>
-    </div><!-- /footer -->
+    </footer><!-- /footer -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -6,6 +6,8 @@ body {
   font-family: 'Raleway', Arial; 
 }
 
+/* google API fonts */
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -29,10 +31,6 @@ body {
 
 .container {
   max-width: 940px;
-}
-
-.extra { 
-  padding-left: 15px;
 }
 
 /* navbar logo */ 
@@ -204,4 +202,6 @@ span.article-links span {
 .title {
   color: #18678e;
 }
+
+
 

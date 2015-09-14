@@ -107,7 +107,7 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method          = :rsync
+  deploy.method          = :sftp
   deploy.build_before    = true
   deploy.host            = 'childlab.northwestern.edu'
   deploy.port            = 22
