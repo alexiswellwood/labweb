@@ -1,11 +1,11 @@
 language: ruby
 script:
-- bundle exec middleman build
-- if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]]; then bundle
-  exec middleman deploy; fi
-before_install:
-- openssl aes-256-cbc -K $encrypted_a2aaefd46038_key -iv $encrypted_a2aaefd46038_iv
-  -in deploy_key.enc -out deploy_key -d
-- mv deploy_key ~/.ssh/id_rsa
-- echo -e "Host childlab.northwestern.edu\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - bundle exec middleman build
+  - if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]]; then
+      openssl aes-256-cbc -K $encrypted_a2aaefd46038_key -iv $encrypted_a2aaefd46038_iv -in deploy_key.enc -out deploy_key -d &&
+      mv deploy_key ~/.ssh/id_rsa &&
+      chmod 600 ~/.ssh/id_rsa &&
+      echo -e "Host childlab.northwestern.edu\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config &&
+      bundle exec middleman deploy;
+    fi
 
