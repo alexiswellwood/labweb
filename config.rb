@@ -107,14 +107,14 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method          = :sftp
+  deploy.method   = :rsync
   deploy.build_before    = true
   deploy.host            = 'childlab.northwestern.edu'
   deploy.port            = 22
-  deploy.path            = '/var/www/html/linguistics-groups/childlab'
+  deploy.path            = '/var/www/html/childlab/'
   # deploy.flags           = "-avze 'ssh'"
   # Optional Settings
-  # deploy.user     = 'tvaughan' # no default
+  deploy.user     = 'acw346' # no default
   # deploy.password = 'secret' # no default
 end
 
