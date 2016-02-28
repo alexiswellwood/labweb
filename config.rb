@@ -112,7 +112,7 @@ activate :deploy do |deploy|
   deploy.host            = 'childlab.northwestern.edu'
   deploy.port            = 22
   deploy.path            = '/var/www/html/childlab/'
-  deploy.flags           = "--omit-dir-times --inplace -rve 'ssh'"
+  deploy.flags           = "--omit-dir-times --inplace -rve 'ssh -vvv'"
   # Optional Settings
   deploy.user     = 'acw346' # no default
   # deploy.password = 'secret' # no default
