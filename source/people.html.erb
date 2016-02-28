@@ -5,11 +5,23 @@ author: Alexis Wellwood
 blog: people
 ---
 
-<h2 class="pageheader">People</h2>
 
+<div class="row">
+  <div class="col-md-9">
+  <h2 class="pageheader">People</h2>
   <% page_articles.each_with_index do |article, i| %>
     <h3><%= link_to article.data.name, article.data.website %>  </h3>
-    <span class="subheader"><%= article.data.title %></span><br /> 
+    <span class="subheader"><%= article.data.title %></span>
+      <% if article.data.email %>
+        <span> &nbsp; &middot; <%= mail_to article.data.email, "email" %></span>
+      <% end %>
+      <% if article.data.cv %>
+        <span> &middot; <%= link_to 'CV'.html_safe, article.data.cv %></span>
+      <% end %>
+      <% if article.data.alumni %>
+        <span> &nbsp; &middot; alum of <%= article.data.alumni %></span>
+      <% end %>
+    <br /> 
 
     <div class="row">
       <div class="col-md-12">
@@ -20,6 +32,14 @@ blog: people
       </div>
     </div>
   <% end %>
+  </div>
+
+  <div class="col-md-3" style="padding-top: 1em;">
+    <h4>Northwestern undergraduates!</h4>
+    <p> The ChiLDlab is always looking for bright, enthusiastic students interested in gaining research experience in our lab. To find out more, <a mailto="childlab@northwestern.edu?subject=Interested%20in%20research%20opportunities">email the research coordinator</a>, Casey Colby. Please tell us a bit about your background and research interests in the email!
+    </p>
+  </div>
+</div>
 
 
 <!-- 

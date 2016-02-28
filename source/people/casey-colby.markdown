@@ -4,8 +4,9 @@ firstname: Casey
 lastname: Colby
 name: Casey Colby
 date: 2015-09-06
-photo: /images/placeholder.png
+photo: /images/casey.png
 website: #
+email: childlab@northwestern.edu
 blog: people
 ---
 

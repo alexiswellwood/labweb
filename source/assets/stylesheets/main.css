@@ -12,13 +12,13 @@ body {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
 }
 
 /*  background: url("/images/boi.jpg") no-repeat top right; */
@@ -152,9 +152,10 @@ a:hover {
 
 .pageheader {
   text-align: left;
-  background-color: #B3DDF2;
+/*  background-color: #B3DDF2; */
+  border-bottom: 1px solid #18678e;
   color: #18678e;
-  padding: .25em;
+  padding: 0.25em 0em;
 }
 
 .subheader {
