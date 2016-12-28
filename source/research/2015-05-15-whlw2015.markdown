@@ -1,0 +1,12 @@
+---
+title: "Participant structure in event perception: Towards the acquisition of implicitly 3-place predicates"
+date: 2015-05-15
+authors: Alexis Wellwood, Angela Xioaxhue He, Jeffrey Lidz, and Alexander Williams
+venue: <i>University of Pennsylvania Working Papers in Linguistics</i>
+local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/whlw2015plc.pdf 
+official: http://repository.upenn.edu/pwpl/vol21/iss1/32
+tags: acquisition, events, argument-structure
+---
+
+In acquiring a semantics, children relate their experience of their world to their experience of speakers. When we study this in the lab, we often presume to understand the first part of this relation: we take for granted how the child will experience the world of our experiment, and test for how she will experience an attendant event of speech. Such presumptions are fair. But they need to be justified, when the experience we impute to the child is much richer than what the world presents objectively. In this paper we discuss one such case, reporting on several experiments targeted at assessing event perception in pre-linguistic infants, following the lead of Gordon (2003). We begin by characterizing what a \'participant role\' is, and how certain acquisition heuristics that depend on this notion are meant to facilitate verb learning.
+

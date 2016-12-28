@@ -9,4 +9,4 @@ website: #
 blog: people
 ---
 
-Haley is a 1st year PhD student in Linguistics at Northwestern. She received her B.A. in Linguistics with a specialization in Cognitive Science from Michigan State University in 2015. Her research interests include natural language semantics and child language acquisition. 
+Haley is a 2nd year Linguistics PhD student at Northwestern. She received her B.A. in Linguistics with a specialization in Cognitive Science from Michigan State University in 2015. Her research interests include natural language semantics and child language acquisition. Her non-research interests include hanging out with her dog.

@@ -12,6 +12,7 @@ activate :blog do |blog|
   blog.layout = "post"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  blog.paginate = true
 end
 
 page "feed.xml", layout: false
@@ -107,12 +108,13 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method   = :rsync
+  #deploy.method   = :rsync
+  deploy.method   = :sftp
   deploy.build_before    = true
   deploy.host            = 'childlab.northwestern.edu'
   deploy.port            = 22
   deploy.path            = '/var/www/html/childlab/'
-  deploy.flags           = "--omit-dir-times --inplace -rve 'ssh'"
+  # deploy.flags           = "--omit-dir-times --inplace -rve 'ssh' -a"
   # Optional Settings
   deploy.user     = 'acw346' # no default
   # deploy.password = 'secret' # no default
