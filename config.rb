@@ -119,5 +119,3 @@ activate :deploy do |deploy|
   deploy.user     = 'acw346' # no default
   # deploy.password = 'secret' # no default
 end
-
-
