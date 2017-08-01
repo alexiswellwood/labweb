@@ -6,6 +6,7 @@ name: AnnMarie Hilton
 date: 2015-09-02
 photo: /images/annMarie.png
 website: #
+alumni: academic year 2016-2017
 blog: people
 ---
 

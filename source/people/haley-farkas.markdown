@@ -6,6 +6,7 @@ name: Haley Farkas
 date: 2015-09-05
 photo: /images/haley.png
 website: #
+alumni: 2015-2017
 blog: people
 ---
 

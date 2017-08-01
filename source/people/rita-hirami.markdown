@@ -6,6 +6,7 @@ name: Rita Hirami
 date: 2015-09-02
 photo: /images/rita-scaled.png
 website: #
+alumni: fall 2015, academic year 2016-2017, summer 2017
 blog: people
 ---
 
