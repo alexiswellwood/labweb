@@ -6,6 +6,7 @@ name: Casey Colby
 date: 2015-09-06
 photo: /images/casey2.jpg
 website: #
+alumni: 2015-2017
 blog: people
 ---
 
