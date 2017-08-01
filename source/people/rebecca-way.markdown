@@ -7,7 +7,7 @@ name: Rebecca Way
 date: 2014-09-01
 photo: /images/rebecca.jpg
 website: #
-alumni: Academic Year 2015-2016	
+alumni: academic year 2015-2016, summer 2017
 blog: people
 ---
 
