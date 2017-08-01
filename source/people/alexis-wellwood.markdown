@@ -7,7 +7,7 @@ date: 2015-09-07
 photo: /images/me-rainbow.png
 website: http://faculty.wcas.northwestern.edu/wellwood/
 cv: http://faculty.wcas.northwestern.edu/wellwood/downloadables/wellwood_cv.pdf
-email: wellwood@northwestern.edu
+email: wellwood@usc.edu
 blog: people
 ---
 

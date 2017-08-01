@@ -6,7 +6,6 @@ name: Casey Colby
 date: 2015-09-06
 photo: /images/casey2.jpg
 website: #
-email: childlab@northwestern.edu
 blog: people
 ---
 
