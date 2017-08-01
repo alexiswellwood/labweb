@@ -1,10 +1,10 @@
 ---
-title: Lab Manager
+title: Lab Manager &amp; Software Developer
 firstname: Casey
 lastname: Colby
 name: Casey Colby
 date: 2015-09-06
-photo: /images/casey.png
+photo: /images/casey2.jpg
 website: #
 email: childlab@northwestern.edu
 blog: people
