@@ -4,7 +4,7 @@ firstname: Rebecca
 lastname: Way
 name: Rebecca Way
 <!-- date: 2015-09-02 -->
-date: 2014-09-01
+date: 2014-09-02
 photo: /images/rebecca.jpg
 website: #
 alumni: academic year 2015-2016, summer 2017

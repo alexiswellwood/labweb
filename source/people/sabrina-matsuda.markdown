@@ -6,6 +6,7 @@ name: Sabrina Matsuda
 date: 2015-09-02
 photo: /images/sabrina.jpg
 website: #
+alumni: academic year 2016-2017
 blog: people
 ---
 

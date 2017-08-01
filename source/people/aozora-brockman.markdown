@@ -3,7 +3,7 @@ title: Research Assistant
 firstname: Aozora
 lastname: Brockman
 name: Aozora Brockman
-date:  2015-09-01
+date:  2015-09-02
 photo: /images/zoe-picture.jpg
 website: #
 alumni: Winter and Spring 2016

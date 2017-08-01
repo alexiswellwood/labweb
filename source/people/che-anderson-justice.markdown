@@ -6,6 +6,7 @@ name: Ché Anderson Justice
 date: 2015-09-02
 photo: /images/che.jpeg
 website: #
+alumni: academic year 2015-2017, summer 2017
 blog: people
 ---
 
