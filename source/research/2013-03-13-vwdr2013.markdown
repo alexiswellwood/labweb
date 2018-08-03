@@ -1,0 +1,11 @@
+---
+title: Talking about Causing Events
+date: 2013-03-13 
+authors: Christopher Vogel, Alexis Wellwood, Rachel Dudley, and J. Brendan Ritchie
+venue: "<i>The Baltic International Yearbook of Cognition, Logic and Communication</i>: Vol. 9"
+local: /downloadables/vwdr-toappear-baltic.pdf
+official: http://dx.doi.org/10.4148/1944-3676.1092
+tags: semantics, psycholinguistics, events, causativity
+---
+
+Questions about the nature of the relationship between language and extralinguistic cognition are old, but only recently has a new view emerged that allows for the systematic investigation of claims about linguistic structure, based on how it is understood or utilized outside of the language system. Our paper represents a case study for this interaction in the domain of event semantics. READMORE  We adopt a *transparency thesis* about the relationship between linguistic structure and extralinguistic cognition, investigating whether different lexico-syntactic structures can differentially recruit the visual causal percept. A prominent analysis of causative verbs like *move* suggests reference to two distinct events and a causal relationship between them, whereas non-causative verbs like *push* do not so refer. In our study, we present English speakers with simple scenes that either do or do not support the perception of a causal link, and manipulate (between subjects) a one-sentence instruction for the evaluation of the scene. Preliminary results suggest that competent speakers of English are more likely to judge causative constructions than non-causative constructions as true of a scene where causal features are present in the scene. Implications for a new approach to the investigation of linguistic meanings and future directions are discussed.

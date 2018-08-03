@@ -2,12 +2,11 @@
 title: Research Assistant
 firstname: Rebecca
 lastname: Way
-name: Rebecca Way
-<!-- date: 2015-09-02 -->
-date: 2014-09-02
+name: Bex Way
+date: 2017-06-01
 photo: /images/rebecca.jpg
 website: #
-alumni: academic year 2015-2016, summer 2017
+alumni: academic year 2015-2016, summer 2017 (NU ChiLDlab)
 blog: people
 ---
 

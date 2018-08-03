@@ -3,10 +3,10 @@ title: Lab Manager &amp; Software Developer
 firstname: Casey
 lastname: Colby
 name: Casey Colby
-date: 2015-09-06
+date: 2017-06-01
 photo: /images/casey2.jpg
 website: #
-alumni: 2015-2017
+alumni: 2015-2017 (NU ChiLDlab)
 blog: people
 ---
 

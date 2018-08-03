@@ -3,10 +3,10 @@ title: Research Assistant
 firstname: Sabrina
 lastname: Matsuda
 name: Sabrina Matsuda
-date: 2015-09-02
+date: 2017-06-01
 photo: /images/sabrina.jpg
 website: #
-alumni: academic year 2016-2017
+alumni: academic year 2016-2017 (NU ChiLDlab)
 blog: people
 ---
 

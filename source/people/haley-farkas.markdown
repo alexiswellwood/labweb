@@ -1,12 +1,11 @@
 ---
-title: Graduate Student
+title: Graduate Student (USC Linguistics)
 firstname: Haley
 lastname: Farkas
 name: Haley Farkas
-date: 2015-09-05
+date: 2018-06-21
 photo: /images/haley.png
-website: #
-alumni: 2015-2017
+website: https://sites.google.com/usc.edu/haleyfarkas/
 blog: people
 ---
 

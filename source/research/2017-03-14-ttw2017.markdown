@@ -1,0 +1,10 @@
+---
+title: "Decomposition and processing of negative adjectival comparatives"
+date: 2017-03-14
+authors: Daniel Tucker, Barbara Tomaszewicz &amp; Alexis Wellwood
+venue: "accepted for <i>The semantics of gradability, vagueness, and scale structure: Experimental perspectives</i>, Cognition and Mind series, Springer"
+local: /downloadables/ttw2017preproof.pdf
+tags: semantics, psycholinguistics, comparatives, negation
+---
+
+Recent proposals in the semantics literature hold that the negative comparative *less* and negative adjectives like *short* in English are morphosyntactically complex, unlike their positive counterparts *more* and *tall*. For instance, the negative adjective *short* might decompose into <span style="font-variant:small-caps;">little tall</span> (Rullmann 1995; Heim 2006; B&uuml;ring 2007; Heim 2008). Positing a silent <span style="font-variant:small-caps;">little</span> as part of adjectives like *short* correctly predicts that they are semantically opposite to *tall*; we seek evidence for this decomposition in language understanding in English and Polish. Our visual verification tasks compare processing of positive and negative comparatives with *taller* and *shorter* against that of arguably less symbolically-rich mathematical statements, *A > B*, *B < A*. We find that both language and math statements generally lead to monotonic increases in processing load along with the number of negative symbols (as predicted for language by e.g. Clark and Chase 1972). Our study is the first to examine the processing of the gradable predicates *tall* and *short* cross-linguistically, as well as in contrast to extensionally-equivalent, and putatively non-linguistic stimuli (cf. Deschamps et al. 2015 with quantificational determiners).

@@ -3,10 +3,10 @@ title: Research Assistant
 firstname: AnnMarie
 lastname: Hilton
 name: AnnMarie Hilton
-date: 2015-09-02
+date: 2017-06-01
 photo: /images/annMarie.png
 website: #
-alumni: academic year 2016-2017
+alumni: academic year 2016-2017 (NU ChiLDlab)
 blog: people
 ---
 

@@ -1,12 +1,11 @@
 ---
-title: Graduate Student
+title: Graduate Student (NU Linguistics)
 firstname: Daniel
 lastname: Tucker
 name: Daniel Tucker
-date: 2015-09-04
+date: 2018-06-21 (NU)
 photo: /images/d_tucker_picture.jpg
 website: #
-alumni: 2015-2017
 blog: people
 ---
 

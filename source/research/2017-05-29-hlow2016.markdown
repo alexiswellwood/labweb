@@ -1,0 +1,12 @@
+---
+title: "On how verification tasks are related to verification procedures: A reply to Kotek et al."
+date: 2017-05-29
+authors: Tim Hunter, Jeffrey Lidz, Darko Odic, and Alexis Wellwood
+venue: <i>Natural Language Semantics, 25(2)</i>
+local: /downloadables/hlow2016preprint.pdf
+official: https://link.springer.com/article/10.1007/s11050-016-9130-7
+tags: semantics, psycholinguistics, superlatives, number
+---
+
+
+Kotek et al. (2015) argue on the basis of novel experimental evidence that sentences like 'Most of the dots are blue' are ambiguous, i.e. have two distinct truth conditions. Kotek at al furthermore suggest that when their results are taken together with those of earlier work by Lidz et al. (2011), the overall picture that emerges casts doubt on the conclusions that Lidz et al. drew from their earlier results. We disagree with this characterization of the relationship between the two studies. Our main aim in this reply is to clarify the relationship as we see it. In our view, Kotek et al.'s central claims are simply logically independent of those of Lidz et al.: the former concern which truth condition(s) a certain kind of sentence has, while the latter concern the procedures that speakers choose for the purposes of determining whether a particular truth condition is satisfied in various scenes. The appearance of a conflict between the two studies stems from inattention to the distinction between questions about truth conditions and questions about verification procedures.

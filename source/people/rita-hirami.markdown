@@ -3,10 +3,10 @@ title: Research Assistant
 firstname: Rita
 lastname: Hirami
 name: Rita Hirami
-date: 2015-09-02
+date: 2017-06-01
 photo: /images/rita-scaled.png
 website: #
-alumni: fall 2015, academic year 2016-2017, summer 2017
+alumni: fall 2015, academic year 2016-2017, summer 2017 (NU ChiLDlab)
 blog: people
 ---
 
