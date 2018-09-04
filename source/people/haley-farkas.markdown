@@ -4,9 +4,9 @@ firstname: Haley
 lastname: Farkas
 name: Haley Farkas
 date: 2018-06-21
-photo: /images/haley.png
+photo: /images/haley-photo.jpg
 website: https://sites.google.com/usc.edu/haleyfarkas/
 blog: people
 ---
 
-Haley is a 2nd year Linguistics PhD student at Northwestern. She received her B.A. in Linguistics with a specialization in Cognitive Science from Michigan State University in 2015. Her research interests include natural language semantics and child language acquisition. Her non-research interests include hanging out with her dog.
+Haley is a second year PhD student in the Department of Linguistics at University of Southern California. She received her BA in Linguistics with a specialization in Cognitive Science from Michigan State University in 2015, and her MA in Linguistics from Northwestern University in 2017. Her research interests include semantics, child language acquisition, psycholinguistics, cognitive science, and philosophy of language. 

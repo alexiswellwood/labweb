@@ -3,7 +3,7 @@ title: "Decomposition and processing of negative adjectival comparatives"
 date: 2017-03-14
 authors: Daniel Tucker, Barbara Tomaszewicz &amp; Alexis Wellwood
 venue: "accepted for <i>The semantics of gradability, vagueness, and scale structure: Experimental perspectives</i>, Cognition and Mind series, Springer"
-local: /downloadables/ttw2017preproof.pdf
+local: https://bcf.usc.edu/~d-semant/downloadables/ttw2017preproof.pdf
 tags: semantics, psycholinguistics, comparatives, negation
 ---
 

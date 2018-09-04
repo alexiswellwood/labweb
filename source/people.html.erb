@@ -13,10 +13,10 @@ blog: people
     <h3><%= link_to article.data.name, article.data.website %>  </h3>
     <span class="subheader"><%= article.data.title %></span>
       <% if article.data.cv %>
-        <span> &nbsp;&middot; <%= link_to 'CV'.html_safe, article.data.cv %></span>
+        <span> &nbsp;&middot; <%= link_to 'CV'.html_safe, article.data.cv, target: :_blank %></span>
       <% end %>
       <% if article.data.website %>
-        <span> &nbsp;&middot; <%= link_to 'website'.html_safe, article.data.website %></span>
+        <span> &nbsp;&middot; <%= link_to 'website'.html_safe, article.data.website, target: :_blank %></span>
       <% end %>
       <% if article.data.email %>
         <span> &nbsp;&middot; <%= mail_to article.data.email, "email" %></span>

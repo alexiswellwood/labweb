@@ -3,7 +3,7 @@ title: "Participant structure in event perception: Towards the acquisition of im
 date: 2015-05-15
 authors: Alexis Wellwood, Angela Xioaxhue He, Jeffrey Lidz, and Alexander Williams
 venue: <i>University of Pennsylvania Working Papers in Linguistics</i>
-local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/whlw2015plc.pdf 
+local: https://bcf.usc.edu/~d-semant/downloadables/whlw2015plc.pdf 
 official: http://repository.upenn.edu/pwpl/vol21/iss1/32
 tags: acquisition, events, argument-structure
 ---

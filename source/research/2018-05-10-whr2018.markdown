@@ -4,7 +4,7 @@ date: 2018-05-10
 authors: Alexis Wellwood, Susan J. Hespos, and Lance Rips
 venue: Chapter 8 of <i>Oxford Studies in Experimental Philosophy, Volume 2</i>, Oxford University Press
 official: https://global.oup.com/academic/product/oxford-studies-in-experimental-philosophy-volume-2-9780198815259
-local: /downloadables/whr2017xphi-accepted.pdf
+local: https://bcf.usc.edu/~d-semant/downloadables/whr2017xphi-accepted.pdf
 tags: semantics, events, psycholinguistics, number
 ---
 

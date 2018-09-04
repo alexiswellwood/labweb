@@ -89,6 +89,8 @@ set :js_dir, '/assets/javascripts'
 
 set :images_dir, 'images'
 
+set :relative_links, true
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -101,7 +103,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
@@ -111,11 +113,13 @@ activate :deploy do |deploy|
   #deploy.method   = :rsync
   deploy.method   = :sftp
   deploy.build_before    = true
-  deploy.host            = 'childlab.northwestern.edu'
+  #deploy.host            = 'childlab.northwestern.edu'
+  deploy.host            = 'mizar.usc.edu' 
   deploy.port            = 22
-  deploy.path            = '/var/www/html/childlab/'
+  #deploy.path            = '/var/www/html/childlab/'
+  deploy.path            = '/home/usc/02/d-semant/public_html'
   # deploy.flags           = "--omit-dir-times --inplace -rve 'ssh' -a"
   # Optional Settings
-  deploy.user     = 'acw346' # no default
-  # deploy.password = 'secret' # no default
+  deploy.user     = 'd-semant' # no default
+  deploy.password = 'secret' # no default
 end

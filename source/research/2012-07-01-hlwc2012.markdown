@@ -3,7 +3,7 @@ title: "Restrictions on the meanings of determiners: Typological generalisations
 authors: Tim Hunter, Jeffrey Lidz, Alexis Wellwood, and Anastasia Conroy
 date: 2012-07-01
 venue: <i>Proceedings of Semantics and Linguistic Theory 19</i>
-local: http://faculty.wcas.northwestern.edu/wellwood/downloadables/hlwc2010salt-prepub.pdf
+local: https://bcf.usc.edu/~d-semant/downloadables/hlwc2010salt-prepub.pdf
 official: http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2531
 tags: acquisition, determiners, number, syntactic-bootstrapping
 ---
